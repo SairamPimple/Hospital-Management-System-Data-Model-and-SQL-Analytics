@@ -39,7 +39,7 @@ You need an SQL-compatible database management system like:
 2. Setup Instructions
 	1.	Clone this repository:
 
-git clone https://github.com/yourusername/hospital-dbms.git
+git clone https://github.com/SairamPimple/Hospital_Management_System_SQL_Project
 cd hospital-dbms
 
 
