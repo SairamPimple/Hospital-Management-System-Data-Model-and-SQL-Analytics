@@ -1,1 +1,1 @@
-# Hospital-Management-System_SQL-Project-
+# Hospital Management System - SQL Project 
