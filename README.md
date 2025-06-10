@@ -1,8 +1,5 @@
-Sure! I’ve reviewed your Hospital_DBMS.sql file, which appears to be a SQL script for creating and populating a relational database management system tailored for hospital operations. Here’s a suitable README.md for your GitHub repository:
 
-⸻
-
-🏥 Hospital DBMS
+# 🏥 Hospital DBMS
 
 This project is a Hospital Database Management System (DBMS) implemented using SQL. It provides a structured relational schema to manage hospital operations such as patient records, doctor assignments, room allocations, billing, diagnostics, and admissions.
 
@@ -86,10 +83,3 @@ This project is perfect for:
 	•	Understanding real-world schema modeling.
 	•	Demonstrating DBMS concepts in interviews or academic submissions.
 
-📄 License
-
-This project is open-source and free to use under the MIT License.
-
-⸻
-
-Let me know if you’d like a diagram of the schema, example ER diagram, or add-on features like views, triggers, or stored procedures.
