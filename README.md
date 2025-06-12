@@ -16,7 +16,7 @@
 ---
 
 ## ER Diagram
-![ER Diagram]()
+![ER Diagram](https://github.com/SairamPimple/Hospital_Management_System_SQL_Project/blob/main/ER%20Diagram.png)
 
 ## Database Schema
 
