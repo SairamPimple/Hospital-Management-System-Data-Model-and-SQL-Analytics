@@ -109,8 +109,8 @@
 - **SQL Dialect:** Standard SQL / MySQL-specific extensions  
 
 ## File Structure
-├── Hospital_DB.sql            # 1. Table creation scripts
-├── Hospital_DB_data.sql       # 2. INSERT statements to seed tables
+├── Hospital_DB_Tables.sql            # 1. Table creation scripts
+├── Hospital_DB_Data.sql       # 2. INSERT statements to seed tables
 ├── triggers_and_views.sql     # 3. Triggers and CREATE VIEW definitions
 └── Questions.sql              # 4. Sample query set with answers
 
