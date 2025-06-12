@@ -119,8 +119,10 @@
 1. Install MySQL 8.0.36 and MySQL Workbench  
 2. Create a new schema:  
    ```sql
-   CREATE DATABASE hospital_management;
-   USE hospital_management;
+   DROP DATABASE IF EXISTS Hospital_Management_System; 
+   CREATE DATABASE Hospital_Management_System
+   CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+   USE Hospital_Management_System;
   ## Run scripts in order:
 mysql -u root -p hospital_management < Hospital_DB.sql  
 mysql -u root -p hospital_management < Hospital_DB_data.sql  
