@@ -16,7 +16,7 @@
 ---
 
 ## ER Diagram
-![ER Diagram](sandbox:/mnt/data/A_diagram_presents_an_ER_diagram_for_a_Hospital_Ma.png?_chatgptios_conversationID=6849dc78-3e8c-800b-a3a2-553ab039593e&_chatgptios_messageID=82eff063-3717-428f-a980-69c358673b79)
+![ER Diagram]()
 
 ## Database Schema
 
