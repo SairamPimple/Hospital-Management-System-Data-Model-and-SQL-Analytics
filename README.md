@@ -1,19 +1,19 @@
 # Hospital Management SQL Project
 
-## Table of Contents
-1. [Project Overview](#project-overview)  
-2. [Features](#features)  
-3. [Tools & Technologies](#tools--technologies)  
-4. [File Structure](#file-structure)  
-5. [Database Schema](#database-schema)   
-6. [Setup & Usage](#setup--usage)  
-7. [Contributing](#contributing)  
-8. [License](#license)  
-
----
-
 ## Project Overview
 **Hospital Management SQL Project** is a comprehensive demonstration of SQL proficiency and real-world problem solving. It models a hospital’s back-office operations—including departments, staff, patients, rooms, billing, lab tests, and more—using robust relational design and advanced SQL constructs.
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [ER Diagram](#ER-Diagram)
+3. [Database Schema](#database-schema)  
+4. [Features](#features)  
+5. [Tools & Technologies](#tools--technologies)  
+6. [File Structure](#file-structure)   
+8. [Setup & Usage](#setup--usage)  
+9. [Contributing](#contributing)  
+
+---
 
 ## ER Diagram
 ![ER Diagram](sandbox:/mnt/data/A_diagram_presents_an_ER_diagram_for_a_Hospital_Ma.png?_chatgptios_conversationID=6849dc78-3e8c-800b-a3a2-553ab039593e&_chatgptios_messageID=82eff063-3717-428f-a980-69c358673b79)
