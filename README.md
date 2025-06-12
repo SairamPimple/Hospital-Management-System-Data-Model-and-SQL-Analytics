@@ -5,13 +5,10 @@
 2. [Features](#features)  
 3. [Tools & Technologies](#tools--technologies)  
 4. [File Structure](#file-structure)  
-5. [Database Schema](#database-schema)  
-6. [Data Seeding](#data-seeding)  
-7. [Triggers & Views](#triggers--views)  
-8. [Sample Queries & Answers](#sample-queries--answers)  
-9. [Setup & Usage](#setup--usage)  
-10. [Contributing](#contributing)  
-11. [License](#license)  
+5. [Database Schema](#database-schema)   
+6. [Setup & Usage](#setup--usage)  
+7. [Contributing](#contributing)  
+8. [License](#license)  
 
 ---
 
@@ -117,21 +114,6 @@
 ├── triggers_and_views.sql     # 3. Triggers and CREATE VIEW definitions
 └── Questions.sql              # 4. Sample query set with answers
 
-## Data Seeding
-`Hospital_DB_data.sql` populates the database with realistic sample records:
-- Inserts respect foreign-key dependencies  
-- Demonstrates edge cases (e.g., inpatients, transfers, insurance coverage)
-
-## Triggers & Views
-Defined in `triggers_and_views.sql`:
-- **Validation triggers** for dates, overlaps, capacity, payments, self-supervision  
-- **Views** for common reporting: active inpatients, today’s appointments, low stock, equipment maintenance, patient summary, and more
-
-## Sample Queries & Answers
-`Questions.sql` contains 20 curated SQL challenges and their solutions, including:
-- Aggregations, window-style queries, subqueries  
-- Date functions, conditional logic, JOIN patterns  
-- Dashboard-style summaries  
 
 ## Setup & Usage
 1. Install MySQL 8.0.36 and MySQL Workbench  
