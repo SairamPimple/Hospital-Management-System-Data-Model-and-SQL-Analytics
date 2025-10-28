@@ -6,24 +6,59 @@ This project focuses on designing and implementing a robust relational database 
 ## Table of Contents
 1. [Description](#Description)
 2. [ER Diagram](#ER-Diagram)
-3. [Database Schema](#database-schema)  
-4. [Features](#features)  
-5. [Tools & Technologies](#tools--technologies)  
-6. [File Structure](#file-structure)   
-8. [Setup & Usage](#setup--usage)  
-9. [Contributing](#contributing)  
+3. [Key Features and Skills Demonstrated](#Key-Features-and-Skills-Demonstrated)  
+4. [Tools & Technologies](#tools--technologies)  
+5. [File Structure](#file-structure)   
+6. [Setup & Usage](#setup--usage)  
+7. [Contributing](#contributing)  
 
+3. [Database Schema](#database-schema)  
 ---
 
 ## ER Diagram
 ![ER Diagram](https://github.com/SairamPimple/Hospital_Management_System_SQL_Project/blob/main/ER%20Diagram.png)
 
-## Features
-- Entity relationship modeling with enforced referential integrity  
-- Data validation via CHECK constraints and triggers  
-- Reporting via views for common queries and dashboards  
-- Sample data inserts to exercise all relationships  
-- Example queries with answers to showcase analytical skills  
+## Key Features and Skills Demonstrated
+
+This project showcases a comprehensive skill set across data modeling, advanced querying, and ensuring data integrity, making the complex Hospital Management System data actionable for analysis.
+
+1. Advanced SQL & Analytical Reporting
+
+- Complex View Generation: Created 11 analytical SQL views (e.g., vw_patient_summary) that aggregate data across up to 10 tables, providing a single, ready-to-use reporting layer for complex metrics like patient demographics, admission status, outstanding balances, and next appointments.
+
+- Operational Querying: Developed 20 diverse analytical queries (Questions.sql) to solve real-world business problems, including:
+
+  - Financial Analysis: Calculating Outstanding Patient Balances (Q6) and Total Monthly Revenue (Q17).
+
+  - Resource Management: Analyzing Room Occupancy Rates (Q10) and tracking Equipment Maintenance Schedules (Q19).
+
+  - Staffing & Demand: Counting Staff by Department (Q1) and Patient Visits in the Last 30 Days (Q12).
+
+- Advanced SQL Techniques: Demonstrated expertise in complex Multi-Table Joins, Date/Time Functions (DATEDIFF, DATE_SUB, TIMESTAMP), Conditional Aggregation (COALESCE, IF), and GROUP BY/HAVING clauses for filtered reporting.
+
+2. Database Design & Data Integrity
+
+- Schema Development: Designed and implemented a robust Relational Database Management System (RDBMS) with 25 tables (Staff, Patient, Appointments, Billing, etc.), enforcing Third Normal Form (3NF) principles.
+
+- Data Constraints: Maintained strong data quality using explicit constraints, including Primary/Foreign Keys, CHECK constraints (e.g., phone format, date validation), and Unique Indexes for optimized lookup performance.
+
+- Automated Data Integrity (Triggers): Implemented 8 custom triggers to automatically enforce critical business logic, such as:
+
+  - Appointment Conflict Prevention (trg_no_appt_overlap) to ensure doctors cannot be double-booked.
+
+  - Room Management: Automatically incrementing/decrementing Current_Occupancy when a patient is admitted or discharged.
+
+  - Financial Guardrails: Preventing over-payment on a bill (trg_payment_amount_check).
+
+3. Data Context & Tools
+
+- Data Modeling: Conceptualized and documented the entire system using an Entity-Relationship (ER) Diagram to clearly visualize table relationships and dependencies.
+
+- Domain Expertise: Modeled complex healthcare entities like Prescription, Patient_Diagnosis, Patient_Procedure, and Audit_Log, proving the ability to handle complex, real-world data structures.
+
+- Tools: Proficient in [Insert Specific SQL Dialect, e.g., MySQL/PostgreSQL] for database construction and management.
+
+
 
 ## Database Schema
 
