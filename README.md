@@ -1,10 +1,10 @@
-# Hospital Management SQL Project
+# Hospital Management System: Data Model and SQL Analytics
 
-## Project Overview
-**Hospital Management SQL Project** is a comprehensive demonstration of SQL proficiency and real-world problem solving. It models a hospital’s back-office operations—including departments, staff, patients, rooms, billing, lab tests, and more—using robust relational design and advanced SQL constructs.
+## Description
+This project focuses on designing and implementing a robust relational database management system (RDBMS) for a hypothetical hospital management scenario. The core objective was to create a normalized database schema that accurately represents complex hospital entities (e.g., Patients, Doctors, Appointments, Billing, Departments, etc.) and demonstrate advanced SQL proficiency for data extraction and analysis.
 
 ## Table of Contents
-1. [Project Overview](#project-overview)
+1. [Description](#Description)
 2. [ER Diagram](#ER-Diagram)
 3. [Database Schema](#database-schema)  
 4. [Features](#features)  
