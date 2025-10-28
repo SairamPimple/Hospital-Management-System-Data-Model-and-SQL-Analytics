@@ -5,7 +5,7 @@ This project focuses on designing and implementing a robust relational database 
 
 <details>
 
-<summary> ##Database Schema </summary>
+## <summary> Database Schema </summary>
 
 
 - **Department** (`Dept_ID` PK)  
