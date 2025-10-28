@@ -3,6 +3,24 @@
 ## Description
 This project focuses on designing and implementing a robust relational database management system (RDBMS) for a hypothetical hospital management scenario. The core objective was to create a normalized database schema that accurately represents complex hospital entities (e.g., Patients, Doctors, Appointments, Billing, Departments, etc.) and demonstrate advanced SQL proficiency for data extraction and analysis.
 
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section.
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
+
+
+
 ## Table of Contents
 1. [Description](#Description)
 2. [ER Diagram](#ER-Diagram)
