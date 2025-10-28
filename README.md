@@ -18,6 +18,13 @@
 ## ER Diagram
 ![ER Diagram](https://github.com/SairamPimple/Hospital_Management_System_SQL_Project/blob/main/ER%20Diagram.png)
 
+## Features
+- Entity relationship modeling with enforced referential integrity  
+- Data validation via CHECK constraints and triggers  
+- Reporting via views for common queries and dashboards  
+- Sample data inserts to exercise all relationships  
+- Example queries with answers to showcase analytical skills  
+
 ## Database Schema
 
 - **Department** (`Dept_ID` PK)  
@@ -96,20 +103,13 @@
   - Table_Name, Record_ID, Action, Changed_By → Staff.Emp_ID, Change_Details, timestamps
   
 
-## Features
-- Entity relationship modeling with enforced referential integrity  
-- Data validation via CHECK constraints and triggers  
-- Reporting via views for common queries and dashboards  
-- Sample data inserts to exercise all relationships  
-- Example queries with answers to showcase analytical skills  
-
 ## Tools & Technologies
 - **Database Engine:** MySQL 8.0.36  
 - **GUI Tool:** MySQL Workbench  
 - **SQL Dialect:** Standard SQL / MySQL-specific extensions  
 
 ## File Structure
-├── Hospital_DB_Tables.sql            # 1. Table creation scripts
+├── Hospital_DB_Tables.sql     # 1. Table creation scripts
 ├── Hospital_DB_Data.sql       # 2. INSERT statements to seed tables
 ├── triggers_and_views.sql     # 3. Triggers and CREATE VIEW definitions
 └── Questions.sql              # 4. Sample query set with answers
