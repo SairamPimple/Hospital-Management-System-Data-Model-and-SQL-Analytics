@@ -1,13 +1,13 @@
-# Hospital Management System: Data Model and SQL Analytics
+# **Hospital Management System: Data Model and SQL Analytics**
 
-## Description
+## **Description**
 This project focuses on designing and implementing a robust relational database management system (RDBMS) for a hypothetical hospital management scenario. The core objective was to create a normalized database schema that accurately represents complex hospital entities (e.g., Patients, Doctors, Appointments, Billing, Departments, etc.) and demonstrate advanced SQL proficiency for data extraction and analysis.
 
 This project establishes a robust Relational Database Management System (RDBMS) designed to support the analytical and operational needs of a modern hospital. It serves as a comprehensive demonstration of advanced SQL skills, including data modeling, integrity enforcement (Constraints & Triggers), and sophisticated business intelligence querying (Views & Complex Joins).
 
 ---
 
-## Table of Contents
+## **Table of Contents**
 1. [Description](#Description)
 3. [Technical Scope & Analytical Rigor](#Technical-Scope-&-Analytical-Rigor)
 4. [ER Diagram](#ER-Diagram)
@@ -17,44 +17,45 @@ This project establishes a robust Relational Database Management System (RDBMS) 
  
 ---
 
-## Technical Scope & Analytical Rigor
+## **Technical Scope & Analytical Rigor**
 
-### A. Advanced SQL & Analytical Reporting
-Complex View Generation:
+### **A. Advanced SQL & Analytical Reporting**
+**Complex View Generation**:
   Created 11 analytical SQL views (e.g., vw_patient_summary) that aggregate data across up to 10 tables. This provides a single, ready-to-use reporting layer for critical, complex KPIs like patient demographics, outstanding balances, and next appointments.
 
-Operational Querying:
+**Operational Querying**:
 Developed 18 diverse analytical queries (Queries.sql) to solve real-world business problems, driving data-driven decision-making. Examples include:
   - Financial Analysis: Calculating Outstanding Patient Balances (Q5) and Total Monthly Revenue (Q16).
   - Resource Management: Analyzing Room Occupancy Rates (Q9) and tracking Equipment Maintenance Schedules (Q17).
 
-Advanced Techniques:
+**Advanced Techniques**:
   Exhibits mastery of complex SQL patterns, including Multi-Table Joins, advanced Date/Time Calculations (DATEDIFF, DATE_ADD), and Conditional Aggregation (COALESCE, IF) for robust financial and operational reporting.
 
 
-### B. Database Design & Data Integrity
-Schema Development:
+### **B. Database Design & Data Integrity**
+**Schema Development**:
   Designed and implemented a robust RDBMS with 24 tables (Staff, Patient, Appointments, Billing, etc.), strictly enforcing Third Normal Form (3NF) principles for data efficiency and reduced redundancy.
 
-Automated Data Integrity (Triggers):
+**Automated Data Integrity (Triggers)**:
 Implemented 7 custom triggers to automatically enforce critical business logic, preventing errors at the database level:
   - Appointment Conflict Prevention (trg_no_appt_overlap) to ensure doctors are not double-booked.
   - Room Management: Automatically incrementing/decrementing Current_Occupancy when a patient is admitted or discharged.
   - Financial Guardrails: Preventing over-payment on a bill (trg_payment_amount_check).
 
-Data Constraints:
+**Data Constraints**:
 Maintained strong data quality using explicit constraints, including Primary/Foreign Keys, CHECK constraints (e.g., phone format, date validation), and Unique Indexes for optimized lookup performance.
 
+---
 
-### Business Relevance & Application
+### **Business Relevance & Application**
 
 The data structure directly supports critical operational pillars, ensuring the hospital can operate efficiently and manage risk effectively.
 
-Financial Management: The system facilitates accurate billing, revenue trend analysis, and tracking of insurance policy coverage for rapid claims processing.
+**Financial Management**: The system facilitates accurate billing, revenue trend analysis, and tracking of insurance policy coverage for rapid claims processing.
 
-Resource Optimization: Real-time metrics on room occupancy, staff shifts, and patient flow enable proactive bed management and optimal staff deployment.
+**Resource Optimization**: Real-time metrics on room occupancy, staff shifts, and patient flow enable proactive bed management and optimal staff deployment.
 
-Risk Mitigation: Automated triggers and low-stock alerts prevent service interruptions (e.g., conflicting schedules, medicine shortages) by enforcing business logic constraints.
+**Risk Mitigation**: Automated triggers and low-stock alerts prevent service interruptions (e.g., conflicting schedules, medicine shortages) by enforcing business logic constraints.
 
 ---
 
