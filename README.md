@@ -46,12 +46,6 @@ Data Constraints:
 Maintained strong data quality using explicit constraints, including Primary/Foreign Keys, CHECK constraints (e.g., phone format, date validation), and Unique Indexes for optimized lookup performance.
 
 
-
-
-## Key Features Demonstrated:
-![table](https://github.com/SairamPimple/Hospital-Management-System-Data-Model-and-SQL-Analytics/blob/68fe16dc35deb91e9a6e9afd5cfbf9d3c8855fcf/images/table.png)
-
-
 ## Business Relevance & Application
 
 The data structure directly supports critical operational pillars, ensuring the hospital can operate efficiently and manage risk effectively.
@@ -159,14 +153,14 @@ Risk Mitigation: Automated triggers and low-stock alerts prevent service interru
 ## Setup & Usage
 To replicate this environment:
 
-Execute Hospital_DB_Tables.sql to create the schema and all 24 tables.
+1. Execute Hospital_DB_Tables.sql to create the schema and all 24 tables.
 
-Execute Hospital_DB_Data.sql to populate the tables with sample data (Note: The sample data assumes a current test date of 2025-11-01 for time-based queries).
+2. Execute Hospital_DB_Data.sql to populate the tables with sample data (Note: The sample data assumes a current test date of 2025-11-01 for time-based queries).
 
-Execute Trigers.sql to implement the data integrity constraints.
+3. Execute Trigers.sql to implement the data integrity constraints.
 
-Execute Views.sql to create the analytical reporting layers.
+4. Execute Views.sql to create the analytical reporting layers.
 
-Run any query from Queries.sql to generate specific analytical reports.
+5. Run any query from Queries.sql to generate specific analytical reports.
 
 
