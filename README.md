@@ -19,7 +19,7 @@ This project focuses on designing and implementing a robust relational database 
 
 <summary> Database Schema </summary>
 ![ER Diagram](https://github.com/SairamPimple/Hospital_Management_System_SQL_Project/blob/main/ER%20Diagram.png)
-<details>
+</details>
 
 ## Key Features and Skills Demonstrated
 
