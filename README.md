@@ -157,14 +157,14 @@ The data structure directly supports critical operational pillars, ensuring the 
 ## Setup & Usage
 To replicate this environment:
 
-1. Execute Hospital_DB_Tables.sql to create the schema and all 24 tables.
+1. Execute 01_Hospital_Database_Schema_DDL to create the schema and all 24 tables.
 
-2. Execute Hospital_DB_Data.sql to populate the tables with sample data (Note: The sample data assumes a current test date of 2025-11-01 for time-based queries).
+2. Execute 02_Hospital_Database_Sample_Data to populate the tables with sample data (Note: The sample data assumes a current test date of 2025-11-01 for time-based queries).
 
-3. Execute Trigers.sql to implement the data integrity constraints.
+3. Execute 03_Data_Integrity_Trigers to implement the data integrity constraints.
 
-4. Execute Views.sql to create the analytical reporting layers.
+4. Execute 04_Analytical_Reporting_Views to create the analytical reporting layers.
 
-5. Run any query from Queries.sql to generate specific analytical reports.
+5. Run any query from 05_Analytical_Reporting_Queries to generate specific analytical reports.
 
 
