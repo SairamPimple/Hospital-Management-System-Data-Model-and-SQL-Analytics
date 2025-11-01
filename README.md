@@ -3,6 +3,10 @@
 ## Description
 This project focuses on designing and implementing a robust relational database management system (RDBMS) for a hypothetical hospital management scenario. The core objective was to create a normalized database schema that accurately represents complex hospital entities (e.g., Patients, Doctors, Appointments, Billing, Departments, etc.) and demonstrate advanced SQL proficiency for data extraction and analysis.
 
+This project establishes a robust Relational Database Management System (RDBMS) designed to support the analytical and operational needs of a modern hospital. It serves as a comprehensive demonstration of advanced SQL skills, including data modeling, integrity enforcement (Constraints & Triggers), and sophisticated business intelligence querying (Views & Complex Joins).
+
+The primary objective was not to build front-end software, but to create a highly optimized and reliable data source capable of powering critical business functions such as billing, resource scheduling, inventory management, and patient outcome analysis.
+
 ## Table of Contents
 1. [Description](#Description)
 2. [ER Diagram](#ER-Diagram)
@@ -54,6 +58,19 @@ This project showcases a comprehensive skill set across data modeling, advanced 
 - Domain Expertise: Modeled complex healthcare entities like Prescription, Patient_Diagnosis, Patient_Procedure, and Audit_Log, proving the ability to handle complex, real-world data structures.
 
 - Tools: Proficient in [Insert Specific SQL Dialect, e.g., MySQL/PostgreSQL] for database construction and management.
+
+
+
+| Features              | In Stock | Price |
+| :---------------- | :------: | ----: |
+| Python Hat        |   True   | 23.99 |
+| SQL Hat           |   True   | 23.99 |
+| Codecademy Tee    |  False   | 19.99 |
+| Codecademy Hoodie |  False   | 42.99 |
+
+
+
+
 
 
 ## ER Diagram
