@@ -19,45 +19,32 @@ The primary objective was not to build front-end software, but to create a highl
 ---
 
 
-## Key Features and Skills Demonstrated
+## Technical Scope & Analytical Rigor
 
-This project showcases a comprehensive skill set across data modeling, advanced querying, and ensuring data integrity, making the complex Hospital Management System data actionable for analysis.
+### A. Advanced SQL & Analytical Reporting
+Complex View Generation
+Created 11 analytical SQL views (e.g., vw_patient_summary) that aggregate data across up to 10 tables. This provides a single, ready-to-use reporting layer for critical, complex KPIs like patient demographics, outstanding balances, and next appointments.
 
-1. Advanced SQL & Analytical Reporting
+Operational Querying
+Developed 18 diverse analytical queries (Queries.sql) to solve real-world business problems, driving data-driven decision-making. Examples include:
+  - Financial Analysis: Calculating Outstanding Patient Balances (Q5) and Total Monthly Revenue (Q16).
+  - Resource Management: Analyzing Room Occupancy Rates (Q9) and tracking Equipment Maintenance Schedules (Q17).
 
-- Complex View Generation: Created 11 analytical SQL views (e.g., vw_patient_summary) that aggregate data across up to 10 tables, providing a single, ready-to-use reporting layer for complex metrics like patient demographics, admission status, outstanding balances, and next appointments.
+Advanced Techniques
+  Exhibits mastery of complex SQL patterns, including Multi-Table Joins, advanced Date/Time Calculations (DATEDIFF, DATE_ADD), and Conditional Aggregation (COALESCE, IF) for robust financial and operational reporting.
 
-- Operational Querying: Developed 20 diverse analytical queries (Questions.sql) to solve real-world business problems, including:
+------
 
-  - Financial Analysis: Calculating Outstanding Patient Balances (Q5) and Total Monthly Revenue (Q17).
+### B. Database Design & Data Integrity
+Schema Development 
+  Designed and implemented a robust RDBMS with 24 tables (Staff, Patient, Appointments, Billing, etc.), strictly enforcing Third Normal Form (3NF) principles for data efficiency and reduced redundancy.
 
-  - Resource Management: Analyzing Room Occupancy Rates (Q10) and tracking Equipment Maintenance Schedules (Q19).
-
-  - Staffing & Demand: Counting Staff by Department (Q1) and Patient Visits in the Last 30 Days (Q12).
-
-- Advanced SQL Techniques: Demonstrated expertise in complex Multi-Table Joins, Date/Time Functions (DATEDIFF, DATE_SUB, TIMESTAMP), Conditional Aggregation (COALESCE, IF), and GROUP BY/HAVING clauses for filtered reporting.
-
-2. Database Design & Data Integrity
-
-- Schema Development: Designed and implemented a robust Relational Database Management System (RDBMS) with 25 tables (Staff, Patient, Appointments, Billing, etc.), enforcing Third Normal Form (3NF) principles.
-
-- Data Constraints: Maintained strong data quality using explicit constraints, including Primary/Foreign Keys, CHECK constraints (e.g., phone format, date validation), and Unique Indexes for optimized lookup performance.
-
-- Automated Data Integrity (Triggers): Implemented 8 custom triggers to automatically enforce critical business logic, such as:
-
-  - Appointment Conflict Prevention (trg_no_appt_overlap) to ensure doctors cannot be double-booked.
-
+Automated Data Integrity (Triggers)
+Implemented 7 custom triggers to automatically enforce critical business logic, preventing errors at the database level:
+  - Appointment Conflict Prevention (trg_no_appt_overlap) to ensure doctors are not double-booked.
   - Room Management: Automatically incrementing/decrementing Current_Occupancy when a patient is admitted or discharged.
-
   - Financial Guardrails: Preventing over-payment on a bill (trg_payment_amount_check).
 
-3. Data Context & Tools
-
-- Data Modeling: Conceptualized and documented the entire system using an Entity-Relationship (ER) Diagram to clearly visualize table relationships and dependencies.
-
-- Domain Expertise: Modeled complex healthcare entities like Prescription, Patient_Diagnosis, Patient_Procedure, and Audit_Log, proving the ability to handle complex, real-world data structures.
-
-- Tools: Proficient in [Insert Specific SQL Dialect, e.g., MySQL/PostgreSQL] for database construction and management.
 
 
 
