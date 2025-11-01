@@ -63,7 +63,7 @@ This project showcases a comprehensive skill set across data modeling, advanced 
 
 
 ## Key Features Demonstrated:
-(https://github.com/SairamPimple/Hospital-Management-System-Data-Model-and-SQL-Analytics/blob/68fe16dc35deb91e9a6e9afd5cfbf9d3c8855fcf/images/table.png)
+![table](https://github.com/SairamPimple/Hospital-Management-System-Data-Model-and-SQL-Analytics/blob/68fe16dc35deb91e9a6e9afd5cfbf9d3c8855fcf/images/table.png)
 
 
 
