@@ -8,11 +8,11 @@ This project establishes a robust Relational Database Management System (RDBMS) 
 ---
 ## Table of Contents
 1. [Description](#Description)
-2. [ER Diagram](#ER-Diagram)
-3. [Key Features and Skills Demonstrated](#Key-Features-and-Skills-Demonstrated)  
-4. [Tools & Technologies](#tools--technologies)  
-6. [Setup & Usage](#setup--usage)    
-3. [Database Schema](#database-schema)  
+3. [Technical Scope & Analytical Rigor](#Technical-Scope-&-Analytical-Rigor)
+4. [ER Diagram](#ER-Diagram)
+5. [Database Schema](#database-schema) 
+6. [Tools & Technologies](#tools--technologies)  
+7. [Setup & Usage](#setup--usage)    
 ---
 
 
@@ -30,7 +30,7 @@ Developed 18 diverse analytical queries (Queries.sql) to solve real-world busine
 Advanced Techniques:
   Exhibits mastery of complex SQL patterns, including Multi-Table Joins, advanced Date/Time Calculations (DATEDIFF, DATE_ADD), and Conditional Aggregation (COALESCE, IF) for robust financial and operational reporting.
 
-------
+---
 
 ### B. Database Design & Data Integrity
 Schema Development:
@@ -45,6 +45,7 @@ Implemented 7 custom triggers to automatically enforce critical business logic, 
 Data Constraints:
 Maintained strong data quality using explicit constraints, including Primary/Foreign Keys, CHECK constraints (e.g., phone format, date validation), and Unique Indexes for optimized lookup performance.
 
+---
 
 ## Business Relevance & Application
 
@@ -56,6 +57,7 @@ Resource Optimization: Real-time metrics on room occupancy, staff shifts, and pa
 
 Risk Mitigation: Automated triggers and low-stock alerts prevent service interruptions (e.g., conflicting schedules, medicine shortages) by enforcing business logic constraints.
 
+---
 
 ## ER Diagram
 ![ER Diagram](https://github.com/SairamPimple/Hospital-Management-System-Data-Model-and-SQL-Analytics/blob/044b50d6fe759cf579844d09dbde0d45296a04c2/images/ER%20Diagram.png)
@@ -142,13 +144,15 @@ Risk Mitigation: Automated triggers and low-stock alerts prevent service interru
   
 
 </details>
-  
+
+---
 
 ## Tools & Technologies
 - **Database Engine:** MySQL 8.0.36  
 - **GUI Tool:** MySQL Workbench  
 - **SQL Dialect:** Standard SQL / MySQL-specific extensions  
 
+---
 
 ## Setup & Usage
 To replicate this environment:
