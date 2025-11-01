@@ -14,8 +14,6 @@ This project focuses on designing and implementing a robust relational database 
 3. [Database Schema](#database-schema)  
 ---
 
-## ER Diagram
-![ER Diagram](https://github.com/SairamPimple/Hospital_Management_System_SQL_Project/blob/main/ER%20Diagram.png)
 
 ## Key Features and Skills Demonstrated
 
@@ -56,6 +54,10 @@ This project showcases a comprehensive skill set across data modeling, advanced 
 - Domain Expertise: Modeled complex healthcare entities like Prescription, Patient_Diagnosis, Patient_Procedure, and Audit_Log, proving the ability to handle complex, real-world data structures.
 
 - Tools: Proficient in [Insert Specific SQL Dialect, e.g., MySQL/PostgreSQL] for database construction and management.
+
+
+## ER Diagram
+![ER Diagram](https://github.com/SairamPimple/Hospital_Management_System_SQL_Project/blob/main/ER%20Diagram.png)
 
 <details>
 
