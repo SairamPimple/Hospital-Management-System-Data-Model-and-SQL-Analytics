@@ -25,7 +25,7 @@ This project showcases a comprehensive skill set across data modeling, advanced 
 
 - Operational Querying: Developed 20 diverse analytical queries (Questions.sql) to solve real-world business problems, including:
 
-  - Financial Analysis: Calculating Outstanding Patient Balances (Q6) and Total Monthly Revenue (Q17).
+  - Financial Analysis: Calculating Outstanding Patient Balances (Q5) and Total Monthly Revenue (Q17).
 
   - Resource Management: Analyzing Room Occupancy Rates (Q10) and tracking Equipment Maintenance Schedules (Q19).
 
