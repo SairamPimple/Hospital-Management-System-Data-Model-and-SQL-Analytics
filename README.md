@@ -63,9 +63,7 @@ This project showcases a comprehensive skill set across data modeling, advanced 
 
 | Features | Business Relevance | Analytical Rigor |
 | :----------------| :------: | ----: |
-| Complex Schema | Models real-world entities (Patients, Staff, Doctors, Bills, Insurance) ensuring business rules are translated accurately into data structures. | Utilizes 24 distinct tables with appropriate Primary Keys, Foreign Keys, and Indexing strategies for efficient data retrieval. |
-
-| Data Integrity (Triggers)      |   True                                        | 23.99 |
+| Complex Schema | Models real-world entities (Patients, Staff, Doctors, Bills, Insurance) ensuring business rules are translated accurately into data structures. | Utilizes 25 distinct tables with appropriate Primary Keys, Foreign Keys, and Indexing strategies for efficient data retrieval. | | Data Integrity (Triggers)      |   True                                        | 23.99 |
 | Business Views (11 Views)      |  False                                         | 19.99 |
 | Advanced Queries (18 Examples) |  False                                         | 42.99 |
 
