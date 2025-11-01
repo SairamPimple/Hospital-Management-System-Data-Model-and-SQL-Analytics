@@ -8,7 +8,6 @@ This project focuses on designing and implementing a robust relational database 
 2. [ER Diagram](#ER-Diagram)
 3. [Key Features and Skills Demonstrated](#Key-Features-and-Skills-Demonstrated)  
 4. [Tools & Technologies](#tools--technologies)  
-5. [File Structure](#file-structure)   
 6. [Setup & Usage](#setup--usage)  
 7. [Contributing](#contributing)  
 
@@ -146,12 +145,6 @@ This project showcases a comprehensive skill set across data modeling, advanced 
 - **Database Engine:** MySQL 8.0.36  
 - **GUI Tool:** MySQL Workbench  
 - **SQL Dialect:** Standard SQL / MySQL-specific extensions  
-
-## File Structure
-├── Hospital_DB_Tables.sql     # 1. Table creation scripts
-├── Hospital_DB_Data.sql       # 2. INSERT statements to seed tables
-├── triggers_and_views.sql     # 3. Triggers and CREATE VIEW definitions
-└── Questions.sql              # 4. Sample query set with answers
 
 
 ## Setup & Usage
