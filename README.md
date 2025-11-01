@@ -6,15 +6,16 @@ This project focuses on designing and implementing a robust relational database 
 This project establishes a robust Relational Database Management System (RDBMS) designed to support the analytical and operational needs of a modern hospital. It serves as a comprehensive demonstration of advanced SQL skills, including data modeling, integrity enforcement (Constraints & Triggers), and sophisticated business intelligence querying (Views & Complex Joins).
 
 ---
+
 ## Table of Contents
 1. [Description](#Description)
 3. [Technical Scope & Analytical Rigor](#Technical-Scope-&-Analytical-Rigor)
 4. [ER Diagram](#ER-Diagram)
 5. [Database Schema](#database-schema) 
 6. [Tools & Technologies](#tools--technologies)  
-7. [Setup & Usage](#setup--usage)    
+7. [Setup & Usage](#setup--usage)
+ 
 ---
-
 
 ## Technical Scope & Analytical Rigor
 
@@ -30,7 +31,6 @@ Developed 18 diverse analytical queries (Queries.sql) to solve real-world busine
 Advanced Techniques:
   Exhibits mastery of complex SQL patterns, including Multi-Table Joins, advanced Date/Time Calculations (DATEDIFF, DATE_ADD), and Conditional Aggregation (COALESCE, IF) for robust financial and operational reporting.
 
----
 
 ### B. Database Design & Data Integrity
 Schema Development:
@@ -45,9 +45,8 @@ Implemented 7 custom triggers to automatically enforce critical business logic, 
 Data Constraints:
 Maintained strong data quality using explicit constraints, including Primary/Foreign Keys, CHECK constraints (e.g., phone format, date validation), and Unique Indexes for optimized lookup performance.
 
----
 
-## Business Relevance & Application
+### Business Relevance & Application
 
 The data structure directly supports critical operational pillars, ensuring the hospital can operate efficiently and manage risk effectively.
 
