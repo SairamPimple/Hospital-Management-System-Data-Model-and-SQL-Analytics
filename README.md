@@ -5,16 +5,13 @@ This project focuses on designing and implementing a robust relational database 
 
 This project establishes a robust Relational Database Management System (RDBMS) designed to support the analytical and operational needs of a modern hospital. It serves as a comprehensive demonstration of advanced SQL skills, including data modeling, integrity enforcement (Constraints & Triggers), and sophisticated business intelligence querying (Views & Complex Joins).
 
-The primary objective was not to build front-end software, but to create a highly optimized and reliable data source capable of powering critical business functions such as billing, resource scheduling, inventory management, and patient outcome analysis.
-
+---
 ## Table of Contents
 1. [Description](#Description)
 2. [ER Diagram](#ER-Diagram)
 3. [Key Features and Skills Demonstrated](#Key-Features-and-Skills-Demonstrated)  
 4. [Tools & Technologies](#tools--technologies)  
-6. [Setup & Usage](#setup--usage)  
-7. [Contributing](#contributing)  
-
+6. [Setup & Usage](#setup--usage)    
 3. [Database Schema](#database-schema)  
 ---
 
@@ -22,29 +19,31 @@ The primary objective was not to build front-end software, but to create a highl
 ## Technical Scope & Analytical Rigor
 
 ### A. Advanced SQL & Analytical Reporting
-Complex View Generation
-Created 11 analytical SQL views (e.g., vw_patient_summary) that aggregate data across up to 10 tables. This provides a single, ready-to-use reporting layer for critical, complex KPIs like patient demographics, outstanding balances, and next appointments.
+Complex View Generation:
+  Created 11 analytical SQL views (e.g., vw_patient_summary) that aggregate data across up to 10 tables. This provides a single, ready-to-use reporting layer for critical, complex KPIs like patient demographics, outstanding balances, and next appointments.
 
-Operational Querying
+Operational Querying:
 Developed 18 diverse analytical queries (Queries.sql) to solve real-world business problems, driving data-driven decision-making. Examples include:
   - Financial Analysis: Calculating Outstanding Patient Balances (Q5) and Total Monthly Revenue (Q16).
   - Resource Management: Analyzing Room Occupancy Rates (Q9) and tracking Equipment Maintenance Schedules (Q17).
 
-Advanced Techniques
+Advanced Techniques:
   Exhibits mastery of complex SQL patterns, including Multi-Table Joins, advanced Date/Time Calculations (DATEDIFF, DATE_ADD), and Conditional Aggregation (COALESCE, IF) for robust financial and operational reporting.
 
 ------
 
 ### B. Database Design & Data Integrity
-Schema Development 
+Schema Development:
   Designed and implemented a robust RDBMS with 24 tables (Staff, Patient, Appointments, Billing, etc.), strictly enforcing Third Normal Form (3NF) principles for data efficiency and reduced redundancy.
 
-Automated Data Integrity (Triggers)
+Automated Data Integrity (Triggers):
 Implemented 7 custom triggers to automatically enforce critical business logic, preventing errors at the database level:
   - Appointment Conflict Prevention (trg_no_appt_overlap) to ensure doctors are not double-booked.
   - Room Management: Automatically incrementing/decrementing Current_Occupancy when a patient is admitted or discharged.
   - Financial Guardrails: Preventing over-payment on a bill (trg_payment_amount_check).
 
+Data Constraints:
+Maintained strong data quality using explicit constraints, including Primary/Foreign Keys, CHECK constraints (e.g., phone format, date validation), and Unique Indexes for optimized lookup performance.
 
 
 
@@ -53,7 +52,15 @@ Implemented 7 custom triggers to automatically enforce critical business logic, 
 ![table](https://github.com/SairamPimple/Hospital-Management-System-Data-Model-and-SQL-Analytics/blob/68fe16dc35deb91e9a6e9afd5cfbf9d3c8855fcf/images/table.png)
 
 
+## Business Relevance & Application
 
+The data structure directly supports critical operational pillars, ensuring the hospital can operate efficiently and manage risk effectively.
+
+Financial Management: The system facilitates accurate billing, revenue trend analysis, and tracking of insurance policy coverage for rapid claims processing.
+
+Resource Optimization: Real-time metrics on room occupancy, staff shifts, and patient flow enable proactive bed management and optimal staff deployment.
+
+Risk Mitigation: Automated triggers and low-stock alerts prevent service interruptions (e.g., conflicting schedules, medicine shortages) by enforcing business logic constraints.
 
 
 ## ER Diagram
@@ -150,14 +157,16 @@ Implemented 7 custom triggers to automatically enforce critical business logic, 
 
 
 ## Setup & Usage
-1. Install MySQL 8.0.36 and MySQL Workbench  
-2. Create a new schema:  
-   ```sql
-   DROP DATABASE IF EXISTS Hospital_Management_System; 
-   CREATE DATABASE Hospital_Management_System
-   CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-   USE Hospital_Management_System;
-  ## Run scripts in order:
-mysql -u root -p hospital_management < Hospital_DB.sql  
-mysql -u root -p hospital_management < Hospital_DB_data.sql  
-mysql -u root -p hospital_management < triggers_and_views.sql  
+To replicate this environment:
+
+Execute Hospital_DB_Tables.sql to create the schema and all 24 tables.
+
+Execute Hospital_DB_Data.sql to populate the tables with sample data (Note: The sample data assumes a current test date of 2025-11-01 for time-based queries).
+
+Execute Trigers.sql to implement the data integrity constraints.
+
+Execute Views.sql to create the analytical reporting layers.
+
+Run any query from Queries.sql to generate specific analytical reports.
+
+
