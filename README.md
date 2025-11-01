@@ -83,7 +83,7 @@ Key Features Demonstrated:
 
 
 ## ER Diagram
-![ER Diagram](https://github.com/SairamPimple/Hospital_Management_System_SQL_Project/blob/main/ER%20Diagram.png)
+![ER Diagram](https://github.com/SairamPimple/Hospital-Management-System-Data-Model-and-SQL-Analytics/blob/044b50d6fe759cf579844d09dbde0d45296a04c2/images/ER%20Diagram.png)
 
 <details>
 
