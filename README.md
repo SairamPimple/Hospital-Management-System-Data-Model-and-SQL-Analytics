@@ -61,12 +61,12 @@ This project showcases a comprehensive skill set across data modeling, advanced 
 
 
 
-| Features                       | Business Relevance | Analytical Rigor |
-| :----------------              | :------:           | ----: |
-| Complex Schema                 |                    | 23.99 |
-| Data Integrity (Triggers)      |   True             | 23.99 |
-| Business Views (11 Views)      |  False             | 19.99 |
-| Advanced Queries (18 Examples) |  False             | 42.99 |
+| Features                       | Business Relevance                            | Analytical Rigor |
+| :----------------              | :------:                                      | ----: |
+| Complex Schema                 | Models real-world entities (Patients, Staff, Doctors, Bills, Insurance) ensuring business rules are translated accurately into data structures.                                                                 | 23.99 |
+| Data Integrity (Triggers)      |   True                                        | 23.99 |
+| Business Views (11 Views)      |  False                                         | 19.99 |
+| Advanced Queries (18 Examples) |  False                                         | 42.99 |
 
 
 
