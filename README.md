@@ -61,22 +61,9 @@ This project showcases a comprehensive skill set across data modeling, advanced 
 
 
 
-| Features | Business Relevance | Analytical Rigor |
-| :----------------| :------: | ----: |
-| Complex Schema | Models real-world entities (Patients, Staff, Doctors, Bills, Insurance) ensuring business rules are translated accurately into data structures. | Utilizes 25 distinct tables with appropriate Primary Keys, Foreign Keys, and Indexing strategies for efficient data retrieval. | | Data Integrity (Triggers)      |   True                                        | 23.99 |
-| Business Views (11 Views)      |  False                                         | 19.99 |
-| Advanced Queries (18 Examples) |  False                                         | 42.99 |
 
-
-
-Key Features Demonstrated:
-
-| Feature | Business Relevance | Analytical Rigor |
-| Complex Schema | Models real-world entities (Patients, Staff, Doctors, Bills, Insurance) ensuring business rules are translated accurately into data structures. | Utilizes 24 distinct tables with appropriate Primary Keys, Foreign Keys, and Indexing strategies for efficient data retrieval. |
-| Data Integrity (Triggers) | Ensures data quality and transactional reliability, preventing business-critical errors like scheduling conflicts or data corruption. | Implements 7 Triggers to enforce rules such as preventing overlapping doctor appointments, validating staff/patient dates of birth, and maintaining real-time room occupancy counts. |
-| Business Views (11 Views) | Creates pre-aggregated and simplified data layers for easy consumption by reporting tools and decision-makers (e.g., Finance, Operations). | Generates complex, multi-join views like vw_patient_summary and vw_patient_balance to calculate metrics (e.g., outstanding balances, days admitted) derived from multiple tables. |
-| Advanced Queries (18 Examples) | Enables data-driven decision-making by addressing high-priority operational and financial reporting requirements from leadership. | Exhibits mastery of complex SQL patterns, including multi-table joins, advanced date and time calculations (DATE_ADD, DATEDIFF), conditional logic (COALESCE), and financial aggregation to derive key performance indicators (KPIs). |
-
+## Key Features Demonstrated:
+(https://github.com/SairamPimple/Hospital-Management-System-Data-Model-and-SQL-Analytics/blob/68fe16dc35deb91e9a6e9afd5cfbf9d3c8855fcf/images/table.png)
 
 
 
